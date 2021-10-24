@@ -1,4 +1,4 @@
-package profilemode;
+package profilemodel;
 
 /**
  * 烤肉

@@ -1,4 +1,4 @@
-package profilemode;
+package profilemodel;
 
 /**
  * 定义烧烤制作方法

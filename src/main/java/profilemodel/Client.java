@@ -1,4 +1,4 @@
-package profilemode;
+package profilemodel;
 
 public class Client {
     public static void main(String[] args) {
