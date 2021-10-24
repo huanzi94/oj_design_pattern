@@ -1,4 +1,4 @@
-package factorymodel.abstrctfactorymodel;
+package factorymodel.abstractfactorymodel;
 
 /**
  * 画图的工厂类，根据传入的类型，创建不同的图形对象

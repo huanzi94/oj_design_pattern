@@ -1,4 +1,4 @@
-package factorymodel.abstrctfactorymodel;
+package factorymodel.abstractfactorymodel;
 
 /**
  * 图形接口的实现，定义了具体的三角形

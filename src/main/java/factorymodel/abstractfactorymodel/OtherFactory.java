@@ -1,4 +1,4 @@
-package factorymodel.abstrctfactorymodel;
+package factorymodel.abstractfactorymodel;
 
 /**
  * 其他图形的工厂类
