@@ -1,4 +1,4 @@
-package commandmode;
+package commandmodel;
 
 /**
  * 电灯开灯

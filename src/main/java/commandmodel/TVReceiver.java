@@ -1,4 +1,4 @@
-package commandmode;
+package commandmodel;
 
 /**
  * 电视命令接受者

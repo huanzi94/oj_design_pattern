@@ -1,4 +1,4 @@
-package commandmode;
+package commandmodel;
 
 public class Client {
 

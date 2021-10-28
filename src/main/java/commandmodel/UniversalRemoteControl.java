@@ -1,4 +1,4 @@
-package commandmode;
+package commandmodel;
 
 /**
  * 万能遥控器
