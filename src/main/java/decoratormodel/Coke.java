@@ -3,7 +3,7 @@ package decoratormodel;
 /**
  * 具体的单品，可乐，也是被装饰者。
  */
-public class Coke extends Drink{
+public class Coke extends Drink {
 
     public Coke() {
         setName("可乐");

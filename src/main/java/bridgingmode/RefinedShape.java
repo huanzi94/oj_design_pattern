@@ -5,7 +5,7 @@ package bridgingmode;
  */
 public class RefinedShape extends Shape {
 
-    private int x,y;
+    private int x, y;
 
     public RefinedShape(int x, int y, DrawShape drawShape) {
         super(drawShape);
@@ -15,7 +15,7 @@ public class RefinedShape extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("我是Shape实现类，即将画一个"+ x +"," + y + "的图形");
+        System.out.println("我是Shape实现类，即将画一个" + x + "," + y + "的图形");
         super.draw();
     }
 }

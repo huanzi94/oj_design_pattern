@@ -17,6 +17,7 @@ public class Context {
 
     /**
      * 根据运行时传入的比较策略进行比较。
+     *
      * @param cat1 猫
      * @param cat2 猫
      */

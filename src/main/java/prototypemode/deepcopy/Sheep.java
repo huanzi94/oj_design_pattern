@@ -1,16 +1,11 @@
 package prototypemode.deepcopy;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 /**
  * 原型羊的定义
  */
-public class Sheep implements Serializable,Cloneable {
+public class Sheep implements Serializable, Cloneable {
 
     private String name;
     private String color;
@@ -81,7 +76,7 @@ public class Sheep implements Serializable,Cloneable {
                 bis.close();
                 oos.close();
                 bos.close();
-            }catch (IOException e){
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }

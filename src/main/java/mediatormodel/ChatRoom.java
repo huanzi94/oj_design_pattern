@@ -11,10 +11,6 @@ public class ChatRoom {
 
     List<User> users = new ArrayList<>();
 
-    public void addUser(User user) {
-        users.add(user);
-    }
-
     /**
      * 处理消息
      *
@@ -22,5 +18,9 @@ public class ChatRoom {
      */
     public static void showMessage(User user) {
         System.out.println(new Date() + "--" + user.getName() + "--" + user.getMessage());
+    }
+
+    public void addUser(User user) {
+        users.add(user);
     }
 }

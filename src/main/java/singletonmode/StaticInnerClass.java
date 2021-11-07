@@ -1,7 +1,9 @@
 package singletonmode;
 
+/**
+ * 静态内部类
+ */
 public class StaticInnerClass {
-
 
     private StaticInnerClass() {
     }

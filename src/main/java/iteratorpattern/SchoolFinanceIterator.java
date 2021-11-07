@@ -9,12 +9,11 @@ import java.util.Objects;
 public class SchoolFinanceIterator implements Iterator {
 
     SchoolFinance finance;
+    int index = -1;
 
     public SchoolFinanceIterator() {
         this.finance = new SchoolFinance();
     }
-
-    int index = -1;
 
     @Override
     public boolean hasNext() {

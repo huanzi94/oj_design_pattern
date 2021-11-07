@@ -3,7 +3,7 @@ package statemodel;
 /**
  * 等待叫号状态
  */
-public class ToBeCalledState implements State{
+public class ToBeCalledState implements State {
 
     @Override
     public void action(Context context) {

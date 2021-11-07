@@ -1,7 +1,5 @@
 package prototypemode.deepcopy;
 
-import java.util.Objects;
-
 public class Client {
 
     public static void main(String[] args) throws CloneNotSupportedException {

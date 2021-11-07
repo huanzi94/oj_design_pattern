@@ -7,6 +7,7 @@ public class ShapeFactory {
 
     /**
      * 根据传入的类型，创建不同的图形对象
+     *
      * @param shapeType 类型
      * @return 具体的图形
      */

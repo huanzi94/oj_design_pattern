@@ -1,5 +1,8 @@
 package responsibilitychainmodel;
 
+/**
+ * 辅助类，处理责任链。
+ */
 public class Context {
 
     public Handler getHandles() {

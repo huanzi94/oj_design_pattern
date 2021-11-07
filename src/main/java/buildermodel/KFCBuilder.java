@@ -30,6 +30,7 @@ public abstract class KFCBuilder {
 
     /**
      * 返回一个制作好的套餐
+     *
      * @return BurgerPackage
      */
     public BurgerPackage build() {

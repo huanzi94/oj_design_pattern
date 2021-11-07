@@ -1,6 +1,9 @@
 package fyweightpattern;
 
-public class CircleShape implements Shape{
+/**
+ * 圆形图形
+ */
+public class CircleShape implements Shape {
 
     private final String color;
 
@@ -13,6 +16,6 @@ public class CircleShape implements Shape{
 
     @Override
     public void drawShape() {
-        System.out.println("画了一个颜色为"+ color + "圆形图形，圆角为" + radius);
+        System.out.println("画了一个颜色为" + color + "圆形图形，圆角为" + radius);
     }
 }

@@ -4,7 +4,7 @@ package adaptermode.interfaceadapter;
  * AbstractVoltage抽象类空实现PhoneVoltage接口中的所有的方法,
  * 供子类使用时选择性实现
  */
-public abstract class AbstractVoltage implements PhoneVoltage{
+public abstract class AbstractVoltage implements PhoneVoltage {
 
     public AbstractVoltage() {
     }

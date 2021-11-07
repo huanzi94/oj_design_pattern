@@ -1,6 +1,9 @@
 package factorymodel.factorymethodmodel;
 
-public class TriangleShapeFactory extends ShapeFactory{
+/**
+ * 三角形对应的工厂类
+ */
+public class TriangleShapeFactory extends ShapeFactory {
 
     @Override
     public Shape getShape() {

@@ -1,5 +1,8 @@
 package proxymode.staticproxy;
 
+/**
+ * ModelA的登录逻辑实现
+ */
 public class ModelALogin implements Login {
     @Override
     public void login() {

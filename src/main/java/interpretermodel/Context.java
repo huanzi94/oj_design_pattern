@@ -2,6 +2,9 @@ package interpretermodel;
 
 import java.util.HashMap;
 
+/**
+ * 辅助类，存储不同的输入
+ */
 public class Context {
 
     private HashMap<String, Object> map = new HashMap<>();

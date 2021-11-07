@@ -18,6 +18,6 @@ public abstract class FoodstuffDecorator extends Drink {
 
     @Override
     public String getDesc() {
-        return drink.getDesc() + "\n" +super.getDesc() + "价格为：" + super.getPrice() ;
+        return drink.getDesc() + "\n" + super.getDesc() + "价格为：" + super.getPrice();
     }
 }

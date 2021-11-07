@@ -6,5 +6,6 @@ package buildermodel;
 public abstract class Drink {
 
     public abstract String name();
+
     public abstract String material();
 }

@@ -9,6 +9,11 @@ public class GameMemento {
 
     private String stage;
 
+    public GameMemento(GameOriginator gameOriginator) {
+        this.status = gameOriginator.getStatus();
+        this.stage = gameOriginator.getStage();
+    }
+
     public String getStatus() {
         return status;
     }
@@ -16,7 +21,6 @@ public class GameMemento {
     public void setStatus(String status) {
         this.status = status;
     }
-
 
     public String getStage() {
         return stage;
@@ -26,13 +30,9 @@ public class GameMemento {
         this.stage = stage;
     }
 
-    public GameMemento(GameOriginator gameOriginator) {
-        this.status = gameOriginator.getStatus();
-        this.stage = gameOriginator.getStage();
-    }
-
     /**
      * 备忘录对象中记录原始对象的状态
+     *
      * @param gameOriginator 原始对象
      */
     public void saveStatus(GameOriginator gameOriginator) {

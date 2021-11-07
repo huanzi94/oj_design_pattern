@@ -3,12 +3,13 @@ package buildermodel;
 /**
  * 鸡肉可口可乐套餐建造者
  */
-public class ChickenCokeKFCBuilder extends KFCBuilder{
+public class ChickenCokeKFCBuilder extends KFCBuilder {
 
     /**
      * 鸡肉可口可乐套餐建造者
+     *
      * @param hamburg 具体的汉堡。鸡肉汉堡
-     * @param drink 具体的饮料。可口可乐
+     * @param drink   具体的饮料。可口可乐
      */
     public ChickenCokeKFCBuilder(Hamburg hamburg, Drink drink) {
         super(hamburg, drink);

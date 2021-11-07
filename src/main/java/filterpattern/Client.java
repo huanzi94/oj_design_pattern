@@ -1,8 +1,5 @@
 package filterpattern;
 
-import compositemode.College;
-import facadepattern.ShapeMaker;
-
 import java.util.List;
 
 public class Client {

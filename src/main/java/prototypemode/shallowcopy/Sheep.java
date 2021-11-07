@@ -3,7 +3,7 @@ package prototypemode.shallowcopy;
 /**
  * 原型羊的定义
  */
-public class Sheep implements Cloneable{
+public class Sheep implements Cloneable {
 
     private String name;
     private String color;

@@ -3,7 +3,7 @@ package commandmodel;
 /**
  * 空命令
  */
-public class NoCommand implements Command{
+public class NoCommand implements Command {
 
     @Override
     public void execute() {

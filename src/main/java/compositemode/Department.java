@@ -1,6 +1,9 @@
 package compositemode;
 
-public class Department extends Organization{
+/**
+ * 学院
+ */
+public class Department extends Organization {
 
     public Department(String name, String desc) {
         super(name, desc);

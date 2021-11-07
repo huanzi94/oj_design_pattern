@@ -3,7 +3,7 @@ package buildermodel;
 /**
  * 鸡肉汉堡
  */
-public class ChickenHamburgers extends Hamburg{
+public class ChickenHamburgers extends Hamburg {
 
     @Override
     public String name() {

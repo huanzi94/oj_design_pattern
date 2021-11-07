@@ -3,7 +3,7 @@ package profilemodel;
 /**
  * 烤红薯
  */
-public class RoastedSweetPotatoes extends AbstractBarbecue{
+public class RoastedSweetPotatoes extends AbstractBarbecue {
 
     @Override
     public void stoker() {

@@ -3,7 +3,7 @@ package iteratorpattern;
 /**
  * 金融学院
  */
-public class SchoolFinance implements College{
+public class SchoolFinance implements College {
 
     Object[] finance;
 

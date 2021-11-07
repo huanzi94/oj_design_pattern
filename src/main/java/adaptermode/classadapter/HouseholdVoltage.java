@@ -7,9 +7,10 @@ public class HouseholdVoltage {
 
     /**
      * 家庭电压输出电压方法
+     *
      * @return int
      */
-    public int outPut220V(){
+    public int outPut220V() {
         return 220;
     }
 }

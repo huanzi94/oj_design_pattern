@@ -5,8 +5,8 @@ package factorymodel.abstractfactorymodel;
  */
 public interface Shape {
 
-   /**
-    * 画图规则的定义
-    */
-   void drawShape();
+    /**
+     * 画图规则的定义
+     */
+    void drawShape();
 }

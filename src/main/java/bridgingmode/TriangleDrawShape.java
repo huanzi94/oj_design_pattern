@@ -3,7 +3,7 @@ package bridgingmode;
 /**
  * 画图行为的接口定义的具体实现，三角形
  */
-public class TriangleDrawShape implements DrawShape{
+public class TriangleDrawShape implements DrawShape {
 
     @Override
     public void drawShape() {

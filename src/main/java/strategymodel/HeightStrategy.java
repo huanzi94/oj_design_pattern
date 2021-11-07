@@ -3,7 +3,7 @@ package strategymodel;
 /**
  * 身高比较策略
  */
-public class HeightStrategy implements Strategy{
+public class HeightStrategy implements Strategy {
 
     @Override
     public int compare(Cat cat1, Cat cat2) {

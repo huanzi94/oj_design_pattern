@@ -1,13 +1,12 @@
 package iteratorpattern;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
  * 信工学院
  */
-public class InstituteScienceTechnology implements College{
+public class InstituteScienceTechnology implements College {
 
     List<Object> technology;
 

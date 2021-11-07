@@ -1,9 +1,9 @@
 package interpretermodel;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-public class SQLBExprssion implements Expression{
+/**
+ * #{name}语法的解析实现类
+ */
+public class SQLBExprssion implements Expression {
 
     @Override
     public String interpret(String sql, Context context) {

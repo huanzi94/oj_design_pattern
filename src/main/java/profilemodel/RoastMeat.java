@@ -3,7 +3,7 @@ package profilemodel;
 /**
  * 烤肉
  */
-public class RoastMeat extends AbstractBarbecue{
+public class RoastMeat extends AbstractBarbecue {
     @Override
     public void stoker() {
         System.out.println("用火柴生火");

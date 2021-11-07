@@ -3,7 +3,7 @@ package strategymodel;
 /**
  * 体重比较策略
  */
-public class WeightStrategy implements Strategy{
+public class WeightStrategy implements Strategy {
 
     @Override
     public int compare(Cat cat1, Cat cat2) {

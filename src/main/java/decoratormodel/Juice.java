@@ -3,7 +3,7 @@ package decoratormodel;
 /**
  * 具体的单品，果汁，也是被装饰者。
  */
-public class Juice extends Drink{
+public class Juice extends Drink {
     public Juice() {
         setName("果汁");
         setPrice(23.8F);

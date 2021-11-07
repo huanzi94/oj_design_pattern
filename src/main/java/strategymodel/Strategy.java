@@ -7,6 +7,7 @@ public interface Strategy {
 
     /**
      * 提供一个比较器方法
+     *
      * @param cat1 猫
      * @param cat2 猫
      * @return 比较结果

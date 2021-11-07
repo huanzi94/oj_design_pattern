@@ -3,8 +3,14 @@ package compositemode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class University extends Organization{
+/**
+ * 大学
+ */
+public class University extends Organization {
 
+    /**
+     * 实际上组合的是学院
+     */
     List<Organization> organizations = new ArrayList<>();
 
     public University(String name, String desc) {

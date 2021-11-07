@@ -1,5 +1,8 @@
 package singletonmode;
 
+/**
+ * DCL单例
+ */
 public class DoubleCheckLock {
 
     private static volatile DoubleCheckLock doubleCheckLock = null;

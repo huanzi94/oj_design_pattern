@@ -2,6 +2,9 @@ package proxymode.staticproxy;
 
 import java.util.Date;
 
+/**
+ * ModelA的登录逻辑实现代理类
+ */
 public class ProxyModelALogin implements Login {
 
     private ModelALogin modelALogin;

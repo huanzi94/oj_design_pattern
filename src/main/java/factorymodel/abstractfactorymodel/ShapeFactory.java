@@ -3,7 +3,7 @@ package factorymodel.abstractfactorymodel;
 /**
  * 图形工厂类
  */
-public class ShapeFactory extends AbstractShapeFactory{
+public class ShapeFactory extends AbstractShapeFactory {
 
     @Override
     public Shape getShape(String shapeType) {

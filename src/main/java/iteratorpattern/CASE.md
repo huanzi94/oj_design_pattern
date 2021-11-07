@@ -14,8 +14,6 @@
  - InstituteScienceTechnology/SchoolFinance：信工学院/金融学院，实现了College接口。
  - College： 提供一个获取迭代器的方法。
 
-
-  
 # 案例实现方案：
 
   InstituteScienceTechnology/SchoolFinance实现了College接口，并且他们都有自己对应的迭代器

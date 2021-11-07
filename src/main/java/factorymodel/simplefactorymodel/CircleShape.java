@@ -3,7 +3,7 @@ package factorymodel.simplefactorymodel;
 /**
  * 图形接口的实现，定义了具体的圆形
  */
-public class CircleShape implements Shape{
+public class CircleShape implements Shape {
 
     @Override
     public void drawShape() {

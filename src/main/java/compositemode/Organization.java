@@ -9,6 +9,11 @@ public abstract class Organization {
 
     private String desc;
 
+    public Organization(String name, String desc) {
+        this.name = name;
+        this.desc = desc;
+    }
+
     public String getName() {
         return name;
     }
@@ -22,11 +27,6 @@ public abstract class Organization {
     }
 
     public void setDesc(String desc) {
-        this.desc = desc;
-    }
-
-    public Organization(String name, String desc) {
-        this.name = name;
         this.desc = desc;
     }
 
@@ -46,6 +46,7 @@ public abstract class Organization {
 
     /**
      * 打印组织信息
+     *
      * @return 组织信息
      */
     protected abstract void printDesc();

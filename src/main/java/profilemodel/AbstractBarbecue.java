@@ -28,7 +28,7 @@ public abstract class AbstractBarbecue {
     /**
      * 制作过程，
      */
-    public final void making(){
+    public final void making() {
         stoker();
         prepare();
         barbecue();

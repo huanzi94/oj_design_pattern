@@ -3,7 +3,10 @@ package filterpattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ColorBalloonFilter implements Filter{
+/**
+ * 颜色过滤器
+ */
+public class ColorBalloonFilter implements Filter {
     @Override
     public List<Balloon> filterBalloon(List<Balloon> balloonList) {
         ArrayList<Balloon> balloons = new ArrayList<>();

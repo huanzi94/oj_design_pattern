@@ -6,15 +6,14 @@ import java.util.Objects;
 /**
  * 信工学院迭代器
  */
-public class InstituteScienceTechnologyIterator implements Iterator{
+public class InstituteScienceTechnologyIterator implements Iterator {
 
     InstituteScienceTechnology instituteScienceTechnology;
+    private int index = -1;
 
     public InstituteScienceTechnologyIterator() {
         this.instituteScienceTechnology = new InstituteScienceTechnology();
     }
-
-    private int index = -1;
 
     @Override
     public boolean hasNext() {
