@@ -5,8 +5,8 @@ package observerpattern;
  */
 public class TencentWebsiteObserver extends Observer {
 
-    public float humidity;
-    public float temperature;
+    private float humidity;
+    private float temperature;
 
     @Override
     void updateWeatherInfo(float humidity, float temperature) {

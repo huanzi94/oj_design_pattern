@@ -4,8 +4,8 @@ package observerpattern;
  * 新浪站点，观察者角色
  */
 public class SinaWebsiteObserver extends Observer {
-    public float humidity;
-    public float temperature;
+    private float humidity;
+    private float temperature;
     @Override
     void updateWeatherInfo(float humidity, float temperature) {
         this.humidity = humidity;
