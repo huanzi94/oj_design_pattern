@@ -5,7 +5,7 @@ package visitorpattern;
  */
 public class Robot {
 
-    private Cpu cpu;
+    private final Cpu cpu;
 
     public Robot(Cpu cpu) {
         this.cpu = cpu;

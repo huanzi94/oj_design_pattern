@@ -3,7 +3,7 @@ package visitorpattern;
 /**
  * CPU
  */
-public class Cpu extends HardWare{
+public class Cpu extends HardWare {
 
     public Cpu() {
     }

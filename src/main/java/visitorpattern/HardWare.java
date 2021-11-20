@@ -5,7 +5,7 @@ package visitorpattern;
  */
 public abstract class HardWare {
 
-     int result = 1;
+    int result = 1;
 
     public HardWare() {
     }
@@ -19,6 +19,7 @@ public abstract class HardWare {
 
     /**
      * 接受一个访问者，以便访问者来访问它内部的数据结构
+     *
      * @param visitor 访问者
      */
     abstract void accept(Visitor visitor);

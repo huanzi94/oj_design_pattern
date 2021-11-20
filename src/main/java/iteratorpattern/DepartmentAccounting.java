@@ -3,7 +3,7 @@ package iteratorpattern;
 /**
  * 会计系
  */
-public class DepartmentAccounting implements CollegeSeries{
+public class DepartmentAccounting implements CollegeSeries {
 
     public String getName() {
         return "会计系";

@@ -5,11 +5,11 @@ package facadepattern;
  */
 public class ShapeMaker {
 
-    private Shape cricle;
+    private final Shape cricle;
 
-    private Shape triangle;
+    private final Shape triangle;
 
-    private Shape rhombus;
+    private final Shape rhombus;
 
     public ShapeMaker() {
         this.cricle = new CricleShape();

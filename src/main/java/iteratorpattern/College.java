@@ -9,6 +9,7 @@ public interface College {
 
     /**
      * 获取迭代器
+     *
      * @return 迭代器
      */
     Iterator getIterator();

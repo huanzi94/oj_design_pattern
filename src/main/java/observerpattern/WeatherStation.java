@@ -20,7 +20,7 @@ public class WeatherStation implements Weather {
     }
 
     @Override
-    public void registerSite(Observer observer){
+    public void registerSite(Observer observer) {
         if (!observers.contains(observer)) {
             observers.add(observer);
         }
