@@ -9,8 +9,8 @@ import java.util.List;
 public class WeatherStation implements Weather {
     List<Observer> observers = new ArrayList<>();
 
-    private float humidity = 20L;
-    private float temperature = 20L;
+    private float humidity;
+    private float temperature;
 
     @Override
     public void setWeatherInfo(float humidity, float temperature) {
