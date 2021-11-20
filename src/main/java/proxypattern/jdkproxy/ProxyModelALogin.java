@@ -4,6 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.Date;
 
+/**
+ * ModelALogin的动态代理实现
+ */
 public class ProxyModelALogin implements InvocationHandler {
 
     private final Object object;
